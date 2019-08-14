@@ -22,6 +22,11 @@ text-transform: uppercase;
 text-decoration: none;
 margin: 0 20px 0 20px;
 color: #FFFFFF;
+border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-color: white;
 }
 
 #main {
@@ -31,6 +36,11 @@ letter-spacing: 1px;
 font-weight: 600;
 font-size: 20px;
 text-transform: uppercase;
+}
+
+.socials {
+	color: black;
+	text-decoration: 
 }
 
 p {
@@ -45,6 +55,7 @@ font-family: "Droid Serif", serif;
 letter-spacing: 1px;
 font-weight: 600;
 font-size: 18px;
+text-transform: uppercase;
 }
 
 ol {
@@ -75,4 +86,38 @@ main {
 
 img {
 	margin: 40px 8px 0 8px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.Copyright {
+	float: left;
+	font-family: 'Raleway';
+}
+
+.Message {
+	float: right;
+	font-family: 'Raleway';
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
