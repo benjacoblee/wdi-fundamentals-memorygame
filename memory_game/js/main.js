@@ -39,6 +39,11 @@ checkForMatch ()
 flipCard(0);
 flipCard(2);
 
+function createBoard () {
+for (var i = 0; i < /*array name*/; i++);
+	
+};
+var cardElement = document.createElement('img');
 
 /*if (cardsInPlay.length === 2) {
 	console.log("You have selected two cards"); */
